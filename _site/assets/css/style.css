@@ -7,6 +7,18 @@
 @import url(http://fonts.googleapis.com/css?family=Sacramento);
 
 
+@font-face {
+  font-family: 'Sacramento';
+  src: url('Sacramento.ttf');
+  src: url('Sacramento.eot?#iefix') format('embedded-opentype'),
+       url('Sacramento.woff') format('woff'),
+       url('Sacramento.ttf') format('truetype'),
+       url('Sacramento.svg#Sacramento') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* ------------------------ */
 /* GENERAL TYPOGRAPHY RULES */
 /* ------------------------ */
@@ -80,17 +92,6 @@ h6 {
   font-size: 13px;
   text-transform: uppercase;
   margin: 0;
-}
-
-@font-face {
-  font-family: 'Sacramento';
-  src: url('Sacramento.ttf');
-  src: url('abrilfatface-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('abrilfatface-regular-webfont.woff') format('woff'),
-       url('abrilfatface-regular-webfont.ttf') format('truetype'),
-       url('abrilfatface-regular-webfont.svg#abril_fatfaceregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
 }
 
 /* - Links - */
